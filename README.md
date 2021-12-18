@@ -30,6 +30,7 @@ Entao eu verifico se o login foi realizado com sucesso
 ```
 
 Neste exemplo ao rodar o comando ```cucumber -t@login``` irei rodar apenas o teste login ao invés de todos os cenários escritos na pasta do projeto.
+> Para executar o teste desse projeto basta utilizar o comando ```cucumber``` isso fará como que todos os testes sejam executados.
 
 ## Conceitos utilizados
 
