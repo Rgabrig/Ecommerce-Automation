@@ -1,0 +1,5 @@
+---
+
+default: -p pretty -p qa
+pretty: --format pretty
+qa: AMBIENTE=qa
