@@ -1,20 +1,17 @@
-#Dir[File.join(File.dirname(__FILE__), "../pages/*_page.rb")].each {|file| require file}
-
-
 module Pages
-    def comprar_produto
-        @comprar_produto ||= ComprarProduto.new
+    def buy_product
+        @buy_product ||= BuyProduct.new
     end
 
-    def selecionar_produto
-        @selecionar_produto ||= SelecionarProduto.new
+    def select_product
+        @select_product ||= SelectProduct.new
     end
 
-    def acessar_carrinho
-        @acessar_carrinho ||= AcessarCarrinho.new
+    def access_cart
+        @access_cart ||= AccessCart.new
     end
 
-    def finalizar_compra
-        @finalizar_compra ||= FinalizarCompra.new
+    def finish_buy
+        @finish_buy ||= FinishBuy.new
     end
 end

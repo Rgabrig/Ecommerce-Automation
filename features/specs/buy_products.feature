@@ -11,7 +11,7 @@ Funcionalidade: Realizar login, ordernar produtos e realizar compra
 -Finalizar minha compra
 
 
-@comprar_produto
+@buy_product
 Cenário: Comprar produto com sucesso
 Quando eu realizo o login
 Entao eu verifico se o login foi realizado com sucesso

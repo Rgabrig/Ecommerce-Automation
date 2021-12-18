@@ -4,9 +4,9 @@ require 'site_prism'
 require_relative 'page_helper.rb'
 
 
-AMBIENTE = ENV['AMBIENTE']
+ENVIRONMENT = ENV['ENVIRONMENT']
 
-CONFIG = YAML.load_file(File.dirname(__FILE__) + "/ambientes/#{AMBIENTE}.yml")
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environments/#{ENVIRONMENT}.yml")
 World(Pages)
 
 
