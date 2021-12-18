@@ -35,10 +35,10 @@ Neste exemplo ao rodar o comando ```cucumber -t@login``` irei rodar apenas o tes
 
 Para melhor rendimento, foi utilizado no projeto o conceito de Page Objects e também alguns arquivos foram criados, como:
 ```page_helper.rb``` Neste arquivo deixo criado um modulo global onde já deixo minhas classes instanciadas para evitar retrabalho.
-```cucumber.yml``` Neste arquivo configuro o formato para rodar os testes e crio a váriavel AMBIENTE para selecionar qual ambiente o teste irá rodar.
-```qa.yml``` Neste arquivo deixo configurado o ambiente de QA para rodar meus testes, podendo ser criados mais arquivos com outros ambientes e quando necessário rodar o testes é só trocar a váriavel AMBIENTE.
+```cucumber.yml``` Neste arquivo configuro o formato para rodar os testes e crio a váriavel ENVIRONMENT para selecionar qual ambiente o teste irá rodar.
+```qa.yml``` Neste arquivo deixo configurado o ambiente de QA para rodar meus testes, podendo ser criados mais arquivos com outros ambientes e quando necessário rodar o testes é só trocar a váriavel ENVIRONMENT.
 
-PS: É necessário que no seu arquivo ```env.rb``` seja setado sua váriavel AMBIENTE e também o modulo criado no ```page_helper.rb``` como global.
+PS: É necessário que no seu arquivo ```env.rb``` seja setado sua váriavel ENVIRONMENT e também o modulo criado no ```page_helper.rb``` como global.
 
 Obs: No código foram incluidos alguns ```sleep(2)``` para facilitar a visualização do que está sendo feito. 
 
