@@ -40,4 +40,6 @@ Para melhor rendimento, foi utilizado no projeto o conceito de Page Objects e ta
 
 PS: É necessário que no seu arquivo ```env.rb``` seja setado sua váriavel AMBIENTE e também o modulo criado no ```page_helper.rb``` como global.
 
+Obs: No código foram incluidos alguns ```sleep(2)``` para facilitar a visualização do que está sendo feito. 
+
 Se chegou até aqui, deixo meu agradecimento!!!
